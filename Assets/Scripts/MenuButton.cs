@@ -27,12 +27,6 @@ public class MenuButton : MonoBehaviour
         originalTransform = transform;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnMouseEnter()
     {
         spr.sprite = sprHover;

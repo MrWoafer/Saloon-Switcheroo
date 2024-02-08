@@ -34,19 +34,19 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    public void Shake(float _duration, float _magnitude)
+    public void Shake(float duration, float magnitude)
     {
         if (shaking)
         {
             elapsed = 0f;
-            duration = _duration;
+            this.duration = duration;
         }
         else
         {
             originalPos = transform.localPosition;
             elapsed = 0f;
-            duration = _duration;
-            magnitude = _magnitude;
+            this.duration = duration;
+            this.magnitude = magnitude;
             shaking = true;
         }
     }

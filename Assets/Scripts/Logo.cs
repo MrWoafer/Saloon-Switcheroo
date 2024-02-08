@@ -11,12 +11,6 @@ public class Logo : MonoBehaviour
         PlayerPrefs.SetInt("EnableSwitcheroo", 1);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");

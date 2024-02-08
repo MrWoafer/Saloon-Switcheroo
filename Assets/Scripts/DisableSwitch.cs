@@ -23,12 +23,6 @@ public class DisableSwitch : MonoBehaviour
         SetTick(ticked);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SetTick(bool isTicked)
     {
         ticked = isTicked;
