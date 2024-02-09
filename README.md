@@ -1,6 +1,6 @@
 ![alt text](Itch.IO%20Page/Banner%20-%20With%20Title.png)
 
-# Saloon-Switcheroo
+# Saloon Switcheroo
  
 A 2-player local versus game made in 48 hours for the 2020 GMTK game jam.
 
